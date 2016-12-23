@@ -28,8 +28,10 @@ npm run dev
   - 播放进度计算存在误差
   - 在某些时候歌曲播放完成后无法自动切换到下一首
   - 当歌曲资源出错时，无法自动切换
+  - 计算时间出现NaN
 - 优化
   - 保持原始数据的正确性，在其副本上计算
+  - 跨域请求目前使用的webpack-dev-server Proxy 代理，后期会改成axios等方式跨域（axios按照官方配置跨域一直无效[链接](https://github.com/mzabriskie/axios/issues/335)，求老司机带带）
 
 
 
@@ -37,4 +39,5 @@ npm run dev
 
 - [HTML aduio](http://www.w3school.com.cn/jsref/dom_obj_audio.asp)
 - [webpack-dev-server Proxy ](https://segmentfault.com/q/1010000004881097)
+- [axios](https://github.com/mzabriskie/axios)
 
