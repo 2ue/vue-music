@@ -8,7 +8,9 @@
 
 ## 效果预览
 
-目前已经实现了基本播放功能(但有一些BUG)，计划实现，歌词同步，搜索，本地存储播放列表等功能
+目前已经实现了基本播放功能(但有一些BUG)，
+
+计划实现：歌词同步，搜索，本地存储播放列表，接口切换等功能
 
  ![vue-datepicker](https://github.com/2ue/vue-music/blob/master/src/assets/vue-music.gif)
 
@@ -22,7 +24,7 @@ npm install
 npm run dev
 ```
 
-## 已知BUG及优化
+## 已知BUG及优化(To Do)
 
 - BUG
   - 播放进度计算存在误差
