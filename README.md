@@ -1,6 +1,6 @@
 # vue-music
 
-> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&id=444267927&auto=1&height=66"></iframe>
+> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=238644&auto=1&height=66"></iframe>
 >
 > 利用网易音乐的接口做了一个小小的电台。利用vue + vue-simple-webpack。由于音乐播放是使用原生audio可能会存在一些兼容问题。
 >
