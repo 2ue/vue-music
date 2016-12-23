@@ -33,7 +33,10 @@ npm run dev
   - 保持原始数据的正确性，在其副本上计算
   - 跨域请求目前使用的webpack-dev-server Proxy 代理，后期会改成axios等方式跨域（axios按照官方配置跨域一直无效[链接](https://github.com/mzabriskie/axios/issues/335)，求老司机带带）
 
+## 接口
 
+接口存放到musicAPI.js，具体的细节其中有详细注释
+目前调用的是用户歌单的接口
 
 ## 参考
 
